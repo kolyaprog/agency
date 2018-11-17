@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kolyaprog/agency/issues"
   },
-  "homepage": "https://github.com/kolyaprog/agency#readme"
+  "homepage": "https://github.com/kolyaprog/agency#readme",
+  "dependencies": {
+    "less": "^3.8.1"
+  }
 }

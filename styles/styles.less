@@ -1,0 +1,367 @@
+@color_red: #ff3f40;
+
+body {
+    margin: 0px;
+    font-family: open sans;
+}
+  
+header {
+    background-color: #f6f2f1;
+    width: 100%;
+    height: 688px;
+    padding-top: 29px;
+}
+  
+.topNav {
+    width: 1249px;/* или маржины по 164 пикселя */
+    height: 89px;
+    background-color: #312f30;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+    a {
+        text-decoration: none;
+        padding: 32px;
+        color: white;
+        font-family: "Open Sans";
+        text-transform: uppercase;
+        font-size: 14px;
+
+        &.active {
+            background-color: @color_red;
+        }
+    }
+}
+
+  .blockVideo {
+    display: flex;
+    justify-content: center;
+    width: 1249px;
+    margin: auto;
+    justify-content: space-between;
+  }
+  
+  video {
+    box-shadow: 0 0 80px grey;
+  }
+  
+  h2 {
+    font-size: 4em;
+    font-weight: extrabold;
+    text-transform: uppercase;
+    width: 602px;
+    letter-spacing: 2px;
+    margin-bottom: 38px;
+    margin-top: 0px;
+  }
+  
+  .organisation p {
+    width: 517px;
+    font-size: 18px;
+    color: grey;
+    font-weight: lighter;
+    margin-bottom: 57px;
+  }
+  
+  .contactUs {
+    width: 227px;
+    height: 55px;
+    background-color: @color_red;
+    text-align: center;
+    line-height: 55px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .blockVideo {
+    padding-top: 107px;
+  }
+  
+  .weCan {
+    background-color: white;
+    height: 488px;
+    padding-top: 29px;
+    display: flex;
+    justify-content: space-between;
+    width: 1249px;
+    margin: auto;
+  }
+  
+  .provide h3 {
+    font-size: 30px;
+    font-weight: 800;
+    width: 493px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .learnMore {
+    width: 227px;
+    height: 55px;
+    background-color: white;
+    text-align: center;
+    line-height: 55px;
+    color: @color_red;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid @color_red;
+    border-radius: 5px;
+  }
+  
+  .weCan .provide p {
+    width: 517px;
+    font-size: 18px;
+    color: grey;
+    font-weight: lighter;
+    margin-bottom: 54px;
+    margin-top: 53px;
+  }
+  
+  .piece {
+    height: 234px;
+    width: 270px;
+  }
+  
+  .container44 {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    height: max-content;
+  }
+  
+  .piece img {
+    height: 32px;
+    width: 32px;
+  }
+  
+  .container44 p{
+    font-size: 18px;
+    color: grey;
+    font-weight: lighter;
+  }
+  .products h3 {
+          font-size: 30px;
+    font-weight: 800;
+    text-align:center;
+    border-top: solid #f6f2f1 1px;
+    padding-top:30px;
+  }
+  
+  .products p {
+  font-size: 18px;
+    color: grey;
+    font-weight: lighter;
+    margin:auto;
+    text-align:center;
+    width:500px;
+  
+  }
+  .products .line {
+         width:250px;
+         height:20px;
+         border-bottom:@color_red solid 1px;
+         margin:auto;
+  }
+  .options a {
+      text-decoration:none;
+      color:#312f30;
+      padding-right:20px;
+      padding-left:20px;
+      font-weight:bold;
+  }
+  .options {
+     margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+  }
+   .options a:active {
+  
+      color:@color_red;
+  }
+  .examples {
+      width: 1249px;
+     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:auto;
+    margin-top:30px;
+  }
+  .examples img {
+      margin:5px;
+      width:300px;
+      height:300px;
+  }
+  .meetOurTeam {
+         display: flex;
+             width: 1249px;
+             flex-direction:column;
+    margin:auto;
+  }
+  
+     .meetOurTeam h3 {
+          font-size: 30px;
+    font-weight: extra-bold;
+  
+  
+  }
+  
+  .meetOurTeam p {
+  font-size: 18px;
+    color: grey;
+    font-weight: lighter;
+    width:450px;
+  
+  }
+  .meetOurTeam .line {
+         width:160px;
+         height:20px;
+         border-bottom:@color_red solid 2px;
+  
+  }
+  .profiles {
+             display: flex;
+             width: 1249px;
+  
+    margin:auto;
+  margin-top:45px;
+  margin-bottom:40px;
+  
+  
+  }
+  
+  .profiles>img {
+      width:  320px;
+      height: 450px;
+  }
+  .photo img{
+      width:195px;
+      height:210px;
+      margin-right:10px;
+  
+  }
+  .profileRow {
+      height:450px;
+           display: flex;
+  
+            flex-direction:column;
+           justify-content:space-between;
+             padding-bottom:0px;
+             margin-bottom:0px;
+             margin:auto;
+              margin-left:40px;
+  }
+  .socialMedia a{
+      text-decoration:none;
+      font-style:italic;
+      color:black;
+      margin-right:30px;
+  }
+  .profiles p {
+           font-size: 18px;
+    color: grey;
+    font-weight: lighter;
+    margin-top:5px;
+  }
+  .profileRow h3{
+                 font-size: 30px;
+    font-weight: 800;
+    margin-bottom:15px;
+  
+  }
+  .subscribe {
+      height:400px;
+                   text-align:center;
+      background-color:#f6f2f1;
+               display: flex;
+            flex-direction:column;
+           justify-content:center;
+           margin:auto;
+           padding-left:50px;
+  
+  }
+  .subscribe h3 {
+             color:white;
+                  font-size: 30px;
+    font-weight: 800;
+    margin-bottom:5px;
+  }
+  .subscribe p {
+      margin-bottom:30px;
+                   font-size: 18px;
+    color: white;
+    font-weight: lighter;
+    margin-top: 25px;
+  }
+  
+  .subscribe .button {
+      height:50px;
+      width:200px;
+       background-color: @color_red;
+       border-radius:4px;
+       border:none;
+       color:white;
+       font-weight:bold;
+  }
+  .subscribe .field {
+        height:50px;
+      width:520px;
+             border-radius:4px;
+       border:none;
+       margin-right:15px;
+  }
+  
+  
+   .getnTouch {
+  
+             width: 1249px;
+             margin:auto;
+  }
+          .getnTouch h3 {
+          font-size: 30px;
+    font-weight: extra-bold;
+  
+  
+  }
+  
+  .getnTouch p {
+  font-size: 18px;
+    color: grey;
+    font-weight: lighter;
+    width:700px;
+  
+  }
+  .getnTouch .line {
+         width:160px;
+         height:20px;
+         border-bottom:@color_red solid 2px;
+  
+  }
+  .feedback form {
+      margin-top:40px;
+  width: 700px;
+  }
+  .feedback #fname, #lname {
+  width:280px;
+  height:40px;
+  background-color: #f6f2f1;
+  color:white;
+  border-radius:5px;
+  border:none;
+  }
+  .feedback #lname {
+       margin-left:40px;
+  
+  }
+  
+  .feedback #subject {
+      margin-top:20px;
+      width:610px;
+  }
+    .fuck {
+       width: 1249px;
+    margin:auto;
+    }
+  
