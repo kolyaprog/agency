@@ -5,15 +5,14 @@ body {
 header {
   background-color: #f6f2f1;
   width: 100%;
-  height: 688px;
-  padding-top: 29px;
+}
+header > .container {
+  padding-top: 30px;
 }
 .topNav {
-  width: 1249px;
   /* или маржины по 164 пикселя */
   height: 89px;
   background-color: #312f30;
-  margin: auto;
   display: flex;
   justify-content: center;
 }
@@ -26,13 +25,10 @@ header {
   font-size: 14px;
 }
 .topNav a.active {
-  background-color: #ff3f40;
+  background-color: #ff2d2d;
 }
 .blockVideo {
   display: flex;
-  justify-content: center;
-  width: 1249px;
-  margin: auto;
   justify-content: space-between;
 }
 video {
@@ -57,7 +53,7 @@ h2 {
 .contactUs {
   width: 227px;
   height: 55px;
-  background-color: #ff3f40;
+  background-color: #ff2d2d;
   text-align: center;
   line-height: 55px;
   color: white;
@@ -73,8 +69,6 @@ h2 {
   padding-top: 29px;
   display: flex;
   justify-content: space-between;
-  width: 1249px;
-  margin: auto;
 }
 .provide h3 {
   font-size: 30px;
@@ -89,10 +83,10 @@ h2 {
   background-color: white;
   text-align: center;
   line-height: 55px;
-  color: #ff3f40;
+  color: #ff2d2d;
   font-weight: bold;
   font-size: 20px;
-  border: 2px solid #ff3f40;
+  border: 2px solid #ff2d2d;
   border-radius: 5px;
 }
 .weCan .provide p {
@@ -126,8 +120,7 @@ h2 {
   font-size: 30px;
   font-weight: 800;
   text-align: center;
-  border-top: solid #f6f2f1 1px;
-  padding-top: 30px;
+  margin-top: 0;
 }
 .products p {
   font-size: 18px;
@@ -140,7 +133,7 @@ h2 {
 .products .line {
   width: 250px;
   height: 20px;
-  border-bottom: #ff3f40 solid 1px;
+  border-bottom: #ff2d2d solid 1px;
   margin: auto;
 }
 .options a {
@@ -151,20 +144,17 @@ h2 {
   font-weight: bold;
 }
 .options {
-  margin: auto;
   display: flex;
   justify-content: center;
   margin-top: 30px;
 }
 .options a:active {
-  color: #ff3f40;
+  color: #ff2d2d;
 }
 .examples {
-  width: 1249px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: auto;
   margin-top: 30px;
 }
 .examples img {
@@ -191,7 +181,7 @@ h2 {
 .meetOurTeam .line {
   width: 160px;
   height: 20px;
-  border-bottom: #ff3f40 solid 2px;
+  border-bottom: #ff2d2d solid 2px;
 }
 .profiles {
   display: flex;
@@ -207,7 +197,11 @@ h2 {
 .photo img {
   width: 195px;
   height: 210px;
-  margin-right: 10px;
+  margin-right: 15px;
+}
+.photo img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 .profileRow {
   height: 450px;
@@ -224,6 +218,9 @@ h2 {
   font-style: italic;
   color: black;
   margin-right: 30px;
+}
+.socialMedia a:hover {
+  text-decoration: underline;
 }
 .profiles p {
   font-size: 18px;
@@ -262,7 +259,7 @@ h2 {
 .subscribe .button {
   height: 50px;
   width: 200px;
-  background-color: #ff3f40;
+  background-color: #ff2d2d;
   border-radius: 4px;
   border: none;
   color: white;
@@ -292,10 +289,11 @@ h2 {
 .getnTouch .line {
   width: 160px;
   height: 20px;
-  border-bottom: #ff3f40 solid 2px;
+  border-bottom: #ff2d2d solid 2px;
 }
 .feedback form {
   margin-top: 40px;
+  margin-left: 50px;
   width: 700px;
 }
 .feedback #fname,
@@ -313,8 +311,71 @@ h2 {
 .feedback #subject {
   margin-top: 20px;
   width: 610px;
+  background-color: #f6f2f1;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding-top: 10px;
 }
-.fuck {
-  width: 1249px;
+.msg {
+  /*width: 1249px;*/
   margin: auto;
+  margin-bottom: 70px;
+}
+.feedback #send {
+  margin-top: 20px;
+  width: 610px;
+  height: 40px;
+  background-color: #ff2d2d;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  line-height: 40px;
+}
+.msg {
+  display: flex;
+  justify-content: space-between;
+}
+.contactInfo {
+  background-color: #312f30;
+  color: #f6f2f1;
+  margin-top: 40px;
+  width: 550px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.footer {
+  height: 70px;
+  background-color: #312f30;
+  display: flex;
+  justify-content: space-between;
+}
+.footer p {
+  color: #f6f2f1;
+  margin-left: 45px;
+  padding-top: 10px;
+}
+.footer .social {
+  padding-right: 150px;
+  line-height: 70px;
+}
+.social .fa {
+  font-size: 16px;
+  width: 25px;
+  height: 25px;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #f6f2f1;
+  color: #312f30;
+  text-align: center;
+  line-height: 25px;
+  margin-left: 5px;
+}
+.container {
+  width: 1280px;
+  margin: 0px auto;
+  padding: 110px 0;
+}
+.top-border {
+  border-top: solid #f6f2f1 1px;
 }
